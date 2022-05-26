@@ -7,8 +7,8 @@ with open('LOG.md') as history_file:
 
 setup_args = dict(
     name='kenghwee',
-    version='1.0',
-    description='A package where a meme becomes reality.',
+    version='1.1',
+    description='A package where a meme becomes a reality.',
     long_description_content_type="text/markdown",
     long_description=f'{README}\n\n{LOG}',
     license='MIT',
@@ -18,12 +18,8 @@ setup_args = dict(
     keywords=['Kenghwee', 'Keng Hwee'],
     install_requires = [
         'seaborn',
-        'numpy',
-        'matplotlib',
-        'scipy',
-        'pillow',
-        'pyglet',
-        'cocos2d'
+        'cocos2d',
+        'clrprint'
     ],
     url='https://github.com/RussellDash332/kenghwee',
     download_url='https://pypi.org/project/kenghwee/'

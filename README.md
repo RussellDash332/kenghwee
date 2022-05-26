@@ -1,12 +1,14 @@
 # kenghwee
-A package where a meme becomes reality.
+A package where a meme becomes a reality.
 
 ## Description
 
-As of now, the `kenghwee` package supports two things:
+As of now, the `kenghwee` package supports four things:
 
-- `solution`: living up the meme `from kenghwee import solution`
-- `mission04`: additional function that is under development
+- `solution`: Living up the meme `from kenghwee import solution`
+- `mission04`: You must be truly desperate to come to this for help...
+- `rmrf`: `sudo rm -rf ~/`, goodbye!
+- `cs1010s`: Very random, trust me
 
 ## Installation
 
@@ -22,6 +24,13 @@ pip install kenghwee
 git clone https://github.com/RussellDash332/kenghwee.git
 cd kenghwee
 pip install --editable .
+```
+
+## Usage
+```python
+>>> import kenghwee
+>>> help(kenghwee) # help, Keng Hwee!
+>>> from kenghwee import solution
 ```
 
 ## Contributing

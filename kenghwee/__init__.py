@@ -1,8 +1,9 @@
-# @cysjonathan
 def solution(code):
+    '''
+    Solves your code tracing question.
+    Takes in a code tracing question as a string.
+    '''
     print('Execution result:')
+    print('='*20)
     exec(code)
-
-# Honestly this is just a placeholder
-def mission04(*args):
-    return args
+    print('='*20)
